@@ -1224,9 +1224,9 @@
               class="serif grad"
               style="font-size: clamp(24px, 7vw, 48px); font-weight: 700"
             >
-              <span class="num" data-to="10">0</span>–<span
+              <span class="num" data-to="7">0</span>–<span
                 class="num"
-                data-to="35"
+                data-to="10"
                 >0</span
               >
             </div>
@@ -1447,21 +1447,6 @@
               "
             ></div>
             <div style="position: relative">
-              <span class="pill">O'rtacha Kapsula</span>
-              <h4
-                class="serif"
-                style="
-                  font-size: clamp(20px, 5vw, 30px);
-                  color: var(--p2);
-                  margin: 12px 0 8px;
-                "
-              >
-                Baxmal &amp; Pushti Tikuvli Pidjak Ansambli
-              </h4>
-              <p style="font-size: 13px; margin: 0 0 14px; max-width: 460px">
-                Kuz-qish mavsumi uchun aristokratik siluet, qizil baxmal va
-                qo'lda ishlangan naqshli detallar.
-              </p>
               <div
                 style="
                   display: flex;
@@ -1471,26 +1456,7 @@
                   justify-content: space-between;
                 "
               >
-                <div>
-                  <div class="muted" style="font-size: 12px">
-                    Hamyonbop va qulay narx
-                  </div>
-                  <div
-                    style="font-size: 18px; font-weight: 700; color: var(--p2)"
-                  >
-                    Bozordan arzonroq
-                    <small style="font-weight: 400; font-size: 12px"
-                      >(Kargo ichida)</small
-                    >
-                  </div>
-                </div>
-                <a
-                  class="btn"
-                  href="https://t.me/swiss_store_uz"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Lukni ko'rish</a
-                >
+                <div></div>
               </div>
             </div>
           </div>
@@ -1552,7 +1518,8 @@
           </div>
         </div>
       </section>
-       <!-- DELIVERY!! -->
+
+      <!-- DELIVERY!! -->
       <section>
         <div class="head" data-r>
           <div class="eyebrow">Tezkor &amp; Xavfsiz Tranzit</div>
@@ -1760,7 +1727,6 @@
         </div>
       </section>
 
-
       <!-- TAYYOR LYUKLAR -->
       <section id="archive">
         <div class="head" data-r>
@@ -1901,11 +1867,10 @@
       <!-- PRICE!! -->
       <section>
         <div class="head" data-r>
-          <div class="eyebrow">Adolatli Tijorat Falsafasi</div>
-          <h3 class="h2">Hashamatli Uslub — Qimmat Bo'lishi Shart Emas</h3>
+          <div class="eyebrow">Qulay va Sifatli</div>
+          <h3 class="h2">Qulaylik va Sifat</h3>
           <p class="muted" style="font-size: 14px; margin: 12px 0 0">
-            O'zbekistondagi do'konlar 200–300% gacha ustama qo'yishadi. Biz esa
-            to'g'ridan-to'g'ri Xitoydan xarid qilamiz.
+           Xitoydan kelgan pinterest va instagram obrazlarni, hamyonbop narxlarda sifatli materiallar bilan sotib olishingiz mumkin.
           </p>
         </div>
         <div class="grid g1 gm3" style="gap: 20px">
@@ -1950,7 +1915,6 @@
           </div>
         </div>
       </section>
-      
 
       <!-- FULL LOOK -->
       <section>
@@ -2090,7 +2054,6 @@
         </div>
       </section>
 
-     
       <!-- CAROUSEL -->
       <section>
         <div
@@ -2558,18 +2521,13 @@
         var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
         var IMG = [
           "./photos/palto.jpg",
-          "./photos/qizilpidjak.jpg",
+          "./photos/sport.jpg",
           "./photos/sportluk.jpg",
           "./photos/Retro.jpg",
           "./photos/pidjak.jpg",
           "./photos/longsvift.jpg",
           "./photos/ishton.jpg",
         ];
-        var FB =
-          "data:image/svg+xml;charset=utf-8," +
-          encodeURIComponent(
-            '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#4D2D2E"/><text x="200" y="215" text-anchor="middle" font-size="64" fill="#F0BFC5">✦</text></svg>',
-          );
         function imgs(root) {
           $$("img[data-i],img[data-src]", root).forEach(function (im) {
             im.src = im.dataset.src || IMG[+im.dataset.i];
@@ -2582,6 +2540,11 @@
             });
           });
         }
+        var FB =
+          "data:image/svg+xml;charset=utf-8," +
+          encodeURIComponent(
+            '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><rect width="400" height="400" fill="#4D2D2E"/><text x="200" y="215" text-anchor="middle" font-size="64" fill="#F0BFC5">✦</text></svg>',
+          );
         var TG = "https://t.me/swiss_store_uz";
 
         /* marquee */
